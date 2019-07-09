@@ -36,7 +36,7 @@
             android:layout_marginStart="113dp"
             android:layout_marginTop="29dp"
             android:layout_marginEnd="46dp"
-            android:text="Yenifer santiago pacheco"
+            android:text="Yenisan"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold" />
