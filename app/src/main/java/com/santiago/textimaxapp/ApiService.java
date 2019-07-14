@@ -10,12 +10,12 @@ import retrofit2.http.GET;
 import retrofit2.http.Path;
 
 public interface ApiService {
-    String API_BASE_URL = "http://192.168.1.62:9092";
+    String API_BASE_URL = "http://192.168.137.1:9092";
 
     @GET("api/compras/")
     Call<List<Compra>> getCompras();
 
-    @GET("api/compra/{1}")
+    @GET("api/compra/{id}")
     Call<Compra>showCompra(@Path("id")Integer id);
 
 }

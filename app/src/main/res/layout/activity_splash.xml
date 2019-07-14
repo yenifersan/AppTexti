@@ -19,12 +19,6 @@
         android:layout_gravity="center"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="363dp"
-            android:layout_height="101dp"
-            android:layout_gravity="center_horizontal"
-            android:src="@drawable/logo" />
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

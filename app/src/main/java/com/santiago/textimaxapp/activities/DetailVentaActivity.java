@@ -77,8 +77,6 @@ public class DetailVentaActivity extends AppCompatActivity {
                         moneda.setText(compra.getMoneda());
                         total.setText("s/. "+compra.getTotal());
 
-
-
                     } else {
                         Log.e(TAG, "onError: " + response.errorBody().string());
                         throw new Exception("Error en el servicio");
